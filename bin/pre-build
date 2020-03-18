@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+echo 'Running pre-build...'
+mkdir -p public
+cp index.html public/index.html
+echo 'pre-build Completed!'

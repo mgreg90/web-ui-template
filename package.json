@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watch --config webpack.local.config.js & webpack-dev-server --config webpack.local.config.js",
-    "watch": "webpack --watch --config webpack.local.config.js",
-    "build": "webpack --config webpack.local.config.js"
+    "start": "./bin/pre-build && webpack --watch --config webpack.local.config.js & webpack-dev-server --config webpack.local.config.js",
+    "watch": "webpack --watch --config webpack.local.config.js"
   },
   "keywords": [],
   "author": "",
